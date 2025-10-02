@@ -23,7 +23,7 @@ module light_controller_tb;
     reg clk, rst, button;           
     wire [2:0] light_state;         
 
-    parameter N = 3;
+    parameter N = 300_000_000;
 
     light_controller #(N) uut (
         .clk(clk),
@@ -43,7 +43,7 @@ module light_controller_tb;
 
         // Press button
         button = 1;
-        repeat(12) @(posedge clk);  // hold enough cycles to see cycling
+        repeat(30) @(posedge clk);  // hold enough cycles to see cycling
 
         // Release button we should see it turn off
         button = 0;

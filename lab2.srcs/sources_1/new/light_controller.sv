@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module light_controller #(parameter N = 10)(
+module light_controller #(parameter N = 300_000_000)(
     input  wire clk, rst, button,
     output reg  [2:0] light_state
     );
@@ -28,7 +28,7 @@ module light_controller #(parameter N = 10)(
     // indicator value, if button pressed before, then it is 1 else 0
     reg button_prev;
     
-    // large enough for big N   
+    // large enough for N (N:how long each color stays on) 
     reg [31:0] count;          
 
     // run if clock is incremented or button is reset
