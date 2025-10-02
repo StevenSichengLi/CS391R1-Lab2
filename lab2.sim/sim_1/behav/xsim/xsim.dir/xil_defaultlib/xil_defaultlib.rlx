@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
+/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv,1759342555,systemVerilog,,,,light_controller_tb,,uvm,../../../../../../../../scratch/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv,1759342280,systemVerilog,,/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv,,light_controller,,uvm,../../../../../../../../scratch/Xilinx/2025.1/data/rsb/busdef,,,,,
