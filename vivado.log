@@ -1,0 +1,1133 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Oct  2 14:27:39 2025
+# Process ID         : 323651
+# Current directory  : /home/ugrad/lsich/lab2
+# Command line       : vivado
+# Log file           : /home/ugrad/lsich/lab2/vivado.log
+# Journal file       : /home/ugrad/lsich/lab2/vivado.jou
+# Running On         : cs730-test8.bu.edu
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+# CPU Frequency      : 3675.574 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 33287 MB
+# Swap memory        : 16844 MB
+# Total Virtual      : 50132 MB
+# Available Virtual  : 46404 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.0/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.1/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.7/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu35/1.0/board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/v80/1.0/board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.5/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.4/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385/1.0/board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.2/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.3/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/ugrad/lsich/lab2/lab2.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/ugrad/lsich/lab2/lab2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.0/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.1/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.7/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu35/1.0/board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/v80/1.0/board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.5/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.4/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385/1.0/board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.2/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.3/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /scratch/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/scratch/Xilinx/2025.1/Vivado/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'light_controller_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/scratch/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'light_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj light_controller_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /scratch/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light_controller(N=5)
+Compiling module xil_defaultlib.light_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot light_controller_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "light_controller_tb_behav -key {Behavioral:sim_1:Functional:light_controller_tb} -tclbatch {light_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source light_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+t=0  clk=0  btn=0  light_state=0
+t=5000  clk=1  btn=0  light_state=0
+t=10000  clk=0  btn=0  light_state=0
+t=15000  clk=1  btn=1  light_state=1
+t=20000  clk=0  btn=1  light_state=1
+t=25000  clk=1  btn=1  light_state=1
+t=30000  clk=0  btn=1  light_state=1
+t=35000  clk=1  btn=1  light_state=1
+t=40000  clk=0  btn=1  light_state=1
+t=45000  clk=1  btn=1  light_state=1
+t=50000  clk=0  btn=1  light_state=1
+t=55000  clk=1  btn=1  light_state=1
+t=60000  clk=0  btn=1  light_state=1
+t=65000  clk=1  btn=1  light_state=2
+t=70000  clk=0  btn=1  light_state=2
+t=75000  clk=1  btn=1  light_state=2
+t=80000  clk=0  btn=1  light_state=2
+t=85000  clk=1  btn=1  light_state=2
+t=90000  clk=0  btn=1  light_state=2
+t=95000  clk=1  btn=1  light_state=2
+t=100000  clk=0  btn=1  light_state=2
+t=105000  clk=1  btn=1  light_state=2
+t=110000  clk=0  btn=1  light_state=2
+t=115000  clk=1  btn=1  light_state=3
+t=120000  clk=0  btn=1  light_state=3
+t=125000  clk=1  btn=1  light_state=3
+t=130000  clk=0  btn=1  light_state=3
+t=135000  clk=1  btn=0  light_state=0
+t=140000  clk=0  btn=0  light_state=0
+t=145000  clk=1  btn=0  light_state=0
+t=150000  clk=0  btn=0  light_state=0
+t=155000  clk=1  btn=0  light_state=0
+t=160000  clk=0  btn=0  light_state=0
+t=165000  clk=1  btn=0  light_state=0
+t=170000  clk=0  btn=0  light_state=0
+t=175000  clk=1  btn=0  light_state=0
+t=180000  clk=0  btn=0  light_state=0
+t=185000  clk=1  btn=1  light_state=1
+t=190000  clk=0  btn=1  light_state=1
+t=195000  clk=1  btn=1  light_state=1
+t=200000  clk=0  btn=1  light_state=1
+t=205000  clk=1  btn=1  light_state=1
+t=210000  clk=0  btn=1  light_state=1
+t=215000  clk=1  btn=1  light_state=1
+t=220000  clk=0  btn=1  light_state=1
+t=225000  clk=1  btn=1  light_state=1
+t=230000  clk=0  btn=1  light_state=1
+t=235000  clk=1  btn=1  light_state=2
+t=240000  clk=0  btn=1  light_state=2
+t=245000  clk=1  btn=1  light_state=2
+t=250000  clk=0  btn=1  light_state=2
+t=255000  clk=1  btn=1  light_state=2
+t=260000  clk=0  btn=1  light_state=2
+t=265000  clk=1  btn=0  light_state=0
+t=270000  clk=0  btn=0  light_state=0
+t=275000  clk=1  btn=0  light_state=0
+t=280000  clk=0  btn=0  light_state=0
+$finish called at time : 285 ns : File "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" Line 57
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 10348.746 ; gain = 79.797 ; free physical = 22196 ; free virtual = 43285
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'light_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 10348.746 ; gain = 96.172 ; free physical = 22196 ; free virtual = 43285
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 473564 KB (Peak: 530836 KB), Simulation CPU Usage: 1480 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'light_controller_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/scratch/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'light_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj light_controller_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /scratch/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light_controller(N=2)
+Compiling module xil_defaultlib.light_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot light_controller_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "light_controller_tb_behav -key {Behavioral:sim_1:Functional:light_controller_tb} -tclbatch {light_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source light_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+t=0  clk=0  btn=0  light_state=0
+t=5000  clk=1  btn=0  light_state=0
+t=10000  clk=0  btn=0  light_state=0
+t=15000  clk=1  btn=1  light_state=1
+t=20000  clk=0  btn=1  light_state=1
+t=25000  clk=1  btn=1  light_state=1
+t=30000  clk=0  btn=1  light_state=1
+t=35000  clk=1  btn=1  light_state=2
+t=40000  clk=0  btn=1  light_state=2
+t=45000  clk=1  btn=1  light_state=2
+t=50000  clk=0  btn=1  light_state=2
+t=55000  clk=1  btn=1  light_state=3
+t=60000  clk=0  btn=1  light_state=3
+t=65000  clk=1  btn=1  light_state=3
+t=70000  clk=0  btn=1  light_state=3
+t=75000  clk=1  btn=1  light_state=4
+t=80000  clk=0  btn=1  light_state=4
+t=85000  clk=1  btn=1  light_state=4
+t=90000  clk=0  btn=1  light_state=4
+t=95000  clk=1  btn=1  light_state=5
+t=100000  clk=0  btn=1  light_state=5
+t=105000  clk=1  btn=1  light_state=5
+t=110000  clk=0  btn=1  light_state=5
+t=115000  clk=1  btn=1  light_state=6
+t=120000  clk=0  btn=1  light_state=6
+t=125000  clk=1  btn=1  light_state=6
+t=130000  clk=0  btn=1  light_state=6
+t=135000  clk=1  btn=0  light_state=0
+t=140000  clk=0  btn=0  light_state=0
+t=145000  clk=1  btn=0  light_state=0
+t=150000  clk=0  btn=0  light_state=0
+t=155000  clk=1  btn=0  light_state=0
+t=160000  clk=0  btn=0  light_state=0
+t=165000  clk=1  btn=0  light_state=0
+t=170000  clk=0  btn=0  light_state=0
+t=175000  clk=1  btn=0  light_state=0
+t=180000  clk=0  btn=0  light_state=0
+t=185000  clk=1  btn=1  light_state=1
+t=190000  clk=0  btn=1  light_state=1
+t=195000  clk=1  btn=1  light_state=1
+t=200000  clk=0  btn=1  light_state=1
+t=205000  clk=1  btn=1  light_state=2
+t=210000  clk=0  btn=1  light_state=2
+t=215000  clk=1  btn=1  light_state=2
+t=220000  clk=0  btn=1  light_state=2
+t=225000  clk=1  btn=1  light_state=3
+t=230000  clk=0  btn=1  light_state=3
+t=235000  clk=1  btn=1  light_state=3
+t=240000  clk=0  btn=1  light_state=3
+t=245000  clk=1  btn=1  light_state=4
+t=250000  clk=0  btn=1  light_state=4
+t=255000  clk=1  btn=1  light_state=4
+t=260000  clk=0  btn=1  light_state=4
+t=265000  clk=1  btn=0  light_state=0
+t=270000  clk=0  btn=0  light_state=0
+t=275000  clk=1  btn=0  light_state=0
+t=280000  clk=0  btn=0  light_state=0
+$finish called at time : 285 ns : File "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" Line 57
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'light_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 10376.402 ; gain = 27.656 ; free physical = 22141 ; free virtual = 43230
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 473564 KB (Peak: 530836 KB), Simulation CPU Usage: 1490 ms
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'light_controller_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/scratch/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'light_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj light_controller_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /scratch/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light_controller
+Compiling module xil_defaultlib.light_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot light_controller_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "light_controller_tb_behav -key {Behavioral:sim_1:Functional:light_controller_tb} -tclbatch {light_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source light_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+t=0  clk=0  btn=0  light_state=0
+t=5000  clk=1  btn=0  light_state=0
+t=10000  clk=0  btn=0  light_state=0
+t=15000  clk=1  btn=1  light_state=1
+t=20000  clk=0  btn=1  light_state=1
+t=25000  clk=1  btn=1  light_state=1
+t=30000  clk=0  btn=1  light_state=1
+t=35000  clk=1  btn=1  light_state=1
+t=40000  clk=0  btn=1  light_state=1
+t=45000  clk=1  btn=1  light_state=1
+t=50000  clk=0  btn=1  light_state=1
+t=55000  clk=1  btn=1  light_state=1
+t=60000  clk=0  btn=1  light_state=1
+t=65000  clk=1  btn=1  light_state=1
+t=70000  clk=0  btn=1  light_state=1
+t=75000  clk=1  btn=1  light_state=1
+t=80000  clk=0  btn=1  light_state=1
+t=85000  clk=1  btn=1  light_state=1
+t=90000  clk=0  btn=1  light_state=1
+t=95000  clk=1  btn=1  light_state=1
+t=100000  clk=0  btn=1  light_state=1
+t=105000  clk=1  btn=1  light_state=1
+t=110000  clk=0  btn=1  light_state=1
+t=115000  clk=1  btn=1  light_state=1
+t=120000  clk=0  btn=1  light_state=1
+t=125000  clk=1  btn=1  light_state=1
+t=130000  clk=0  btn=1  light_state=1
+t=135000  clk=1  btn=1  light_state=1
+t=140000  clk=0  btn=1  light_state=1
+t=145000  clk=1  btn=1  light_state=1
+t=150000  clk=0  btn=1  light_state=1
+t=155000  clk=1  btn=1  light_state=1
+t=160000  clk=0  btn=1  light_state=1
+t=165000  clk=1  btn=1  light_state=1
+t=170000  clk=0  btn=1  light_state=1
+t=175000  clk=1  btn=1  light_state=1
+t=180000  clk=0  btn=1  light_state=1
+t=185000  clk=1  btn=1  light_state=1
+t=190000  clk=0  btn=1  light_state=1
+t=195000  clk=1  btn=1  light_state=1
+t=200000  clk=0  btn=1  light_state=1
+t=205000  clk=1  btn=1  light_state=1
+t=210000  clk=0  btn=1  light_state=1
+t=215000  clk=1  btn=1  light_state=1
+t=220000  clk=0  btn=1  light_state=1
+t=225000  clk=1  btn=1  light_state=1
+t=230000  clk=0  btn=1  light_state=1
+t=235000  clk=1  btn=1  light_state=1
+t=240000  clk=0  btn=1  light_state=1
+t=245000  clk=1  btn=1  light_state=1
+t=250000  clk=0  btn=1  light_state=1
+t=255000  clk=1  btn=1  light_state=1
+t=260000  clk=0  btn=1  light_state=1
+t=265000  clk=1  btn=1  light_state=1
+t=270000  clk=0  btn=1  light_state=1
+t=275000  clk=1  btn=1  light_state=1
+t=280000  clk=0  btn=1  light_state=1
+t=285000  clk=1  btn=1  light_state=1
+t=290000  clk=0  btn=1  light_state=1
+t=295000  clk=1  btn=1  light_state=1
+t=300000  clk=0  btn=1  light_state=1
+t=305000  clk=1  btn=1  light_state=1
+t=310000  clk=0  btn=1  light_state=1
+t=315000  clk=1  btn=1  light_state=1
+t=320000  clk=0  btn=1  light_state=1
+t=325000  clk=1  btn=1  light_state=1
+t=330000  clk=0  btn=1  light_state=1
+t=335000  clk=1  btn=1  light_state=1
+t=340000  clk=0  btn=1  light_state=1
+t=345000  clk=1  btn=1  light_state=1
+t=350000  clk=0  btn=1  light_state=1
+t=355000  clk=1  btn=1  light_state=1
+t=360000  clk=0  btn=1  light_state=1
+t=365000  clk=1  btn=1  light_state=1
+t=370000  clk=0  btn=1  light_state=1
+t=375000  clk=1  btn=1  light_state=1
+t=380000  clk=0  btn=1  light_state=1
+t=385000  clk=1  btn=1  light_state=1
+t=390000  clk=0  btn=1  light_state=1
+t=395000  clk=1  btn=1  light_state=1
+t=400000  clk=0  btn=1  light_state=1
+t=405000  clk=1  btn=1  light_state=1
+t=410000  clk=0  btn=1  light_state=1
+t=415000  clk=1  btn=1  light_state=1
+t=420000  clk=0  btn=1  light_state=1
+t=425000  clk=1  btn=1  light_state=1
+t=430000  clk=0  btn=1  light_state=1
+t=435000  clk=1  btn=1  light_state=1
+t=440000  clk=0  btn=1  light_state=1
+t=445000  clk=1  btn=1  light_state=1
+t=450000  clk=0  btn=1  light_state=1
+t=455000  clk=1  btn=1  light_state=1
+t=460000  clk=0  btn=1  light_state=1
+t=465000  clk=1  btn=1  light_state=1
+t=470000  clk=0  btn=1  light_state=1
+t=475000  clk=1  btn=1  light_state=1
+t=480000  clk=0  btn=1  light_state=1
+t=485000  clk=1  btn=1  light_state=1
+t=490000  clk=0  btn=1  light_state=1
+t=495000  clk=1  btn=1  light_state=1
+t=500000  clk=0  btn=1  light_state=1
+t=505000  clk=1  btn=1  light_state=1
+t=510000  clk=0  btn=1  light_state=1
+t=515000  clk=1  btn=1  light_state=1
+t=520000  clk=0  btn=1  light_state=1
+t=525000  clk=1  btn=1  light_state=1
+t=530000  clk=0  btn=1  light_state=1
+t=535000  clk=1  btn=1  light_state=1
+t=540000  clk=0  btn=1  light_state=1
+t=545000  clk=1  btn=1  light_state=1
+t=550000  clk=0  btn=1  light_state=1
+t=555000  clk=1  btn=1  light_state=1
+t=560000  clk=0  btn=1  light_state=1
+t=565000  clk=1  btn=1  light_state=1
+t=570000  clk=0  btn=1  light_state=1
+t=575000  clk=1  btn=1  light_state=1
+t=580000  clk=0  btn=1  light_state=1
+t=585000  clk=1  btn=1  light_state=1
+t=590000  clk=0  btn=1  light_state=1
+t=595000  clk=1  btn=1  light_state=1
+t=600000  clk=0  btn=1  light_state=1
+t=605000  clk=1  btn=1  light_state=1
+t=610000  clk=0  btn=1  light_state=1
+t=615000  clk=1  btn=1  light_state=1
+t=620000  clk=0  btn=1  light_state=1
+t=625000  clk=1  btn=1  light_state=1
+t=630000  clk=0  btn=1  light_state=1
+t=635000  clk=1  btn=1  light_state=1
+t=640000  clk=0  btn=1  light_state=1
+t=645000  clk=1  btn=1  light_state=1
+t=650000  clk=0  btn=1  light_state=1
+t=655000  clk=1  btn=1  light_state=1
+t=660000  clk=0  btn=1  light_state=1
+t=665000  clk=1  btn=1  light_state=1
+t=670000  clk=0  btn=1  light_state=1
+t=675000  clk=1  btn=1  light_state=1
+t=680000  clk=0  btn=1  light_state=1
+t=685000  clk=1  btn=1  light_state=1
+t=690000  clk=0  btn=1  light_state=1
+t=695000  clk=1  btn=1  light_state=1
+t=700000  clk=0  btn=1  light_state=1
+t=705000  clk=1  btn=1  light_state=1
+t=710000  clk=0  btn=1  light_state=1
+t=715000  clk=1  btn=1  light_state=1
+t=720000  clk=0  btn=1  light_state=1
+t=725000  clk=1  btn=1  light_state=1
+t=730000  clk=0  btn=1  light_state=1
+t=735000  clk=1  btn=1  light_state=1
+t=740000  clk=0  btn=1  light_state=1
+t=745000  clk=1  btn=1  light_state=1
+t=750000  clk=0  btn=1  light_state=1
+t=755000  clk=1  btn=1  light_state=1
+t=760000  clk=0  btn=1  light_state=1
+t=765000  clk=1  btn=1  light_state=1
+t=770000  clk=0  btn=1  light_state=1
+t=775000  clk=1  btn=1  light_state=1
+t=780000  clk=0  btn=1  light_state=1
+t=785000  clk=1  btn=1  light_state=1
+t=790000  clk=0  btn=1  light_state=1
+t=795000  clk=1  btn=1  light_state=1
+t=800000  clk=0  btn=1  light_state=1
+t=805000  clk=1  btn=1  light_state=1
+t=810000  clk=0  btn=1  light_state=1
+t=815000  clk=1  btn=1  light_state=1
+t=820000  clk=0  btn=1  light_state=1
+t=825000  clk=1  btn=1  light_state=1
+t=830000  clk=0  btn=1  light_state=1
+t=835000  clk=1  btn=1  light_state=1
+t=840000  clk=0  btn=1  light_state=1
+t=845000  clk=1  btn=1  light_state=1
+t=850000  clk=0  btn=1  light_state=1
+t=855000  clk=1  btn=1  light_state=1
+t=860000  clk=0  btn=1  light_state=1
+t=865000  clk=1  btn=1  light_state=1
+t=870000  clk=0  btn=1  light_state=1
+t=875000  clk=1  btn=1  light_state=1
+t=880000  clk=0  btn=1  light_state=1
+t=885000  clk=1  btn=1  light_state=1
+t=890000  clk=0  btn=1  light_state=1
+t=895000  clk=1  btn=1  light_state=1
+t=900000  clk=0  btn=1  light_state=1
+t=905000  clk=1  btn=1  light_state=1
+t=910000  clk=0  btn=1  light_state=1
+t=915000  clk=1  btn=1  light_state=1
+t=920000  clk=0  btn=1  light_state=1
+t=925000  clk=1  btn=1  light_state=1
+t=930000  clk=0  btn=1  light_state=1
+t=935000  clk=1  btn=1  light_state=1
+t=940000  clk=0  btn=1  light_state=1
+t=945000  clk=1  btn=1  light_state=1
+t=950000  clk=0  btn=1  light_state=1
+t=955000  clk=1  btn=1  light_state=1
+t=960000  clk=0  btn=1  light_state=1
+t=965000  clk=1  btn=1  light_state=1
+t=970000  clk=0  btn=1  light_state=1
+t=975000  clk=1  btn=1  light_state=1
+t=980000  clk=0  btn=1  light_state=1
+t=985000  clk=1  btn=1  light_state=1
+t=990000  clk=0  btn=1  light_state=1
+t=995000  clk=1  btn=1  light_state=1
+t=1000000  clk=0  btn=1  light_state=1
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'light_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 10418.438 ; gain = 2.004 ; free physical = 22068 ; free virtual = 43157
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 473564 KB (Peak: 530836 KB), Simulation CPU Usage: 1490 ms
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'light_controller_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/scratch/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'light_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj light_controller_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /scratch/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light_controller
+Compiling module xil_defaultlib.light_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot light_controller_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "light_controller_tb_behav -key {Behavioral:sim_1:Functional:light_controller_tb} -tclbatch {light_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source light_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+t=0  clk=0  btn=0  light_state=0
+t=5000  clk=1  btn=0  light_state=0
+t=10000  clk=0  btn=0  light_state=0
+t=15000  clk=1  btn=1  light_state=1
+t=20000  clk=0  btn=1  light_state=1
+t=25000  clk=1  btn=1  light_state=1
+t=30000  clk=0  btn=1  light_state=1
+t=35000  clk=1  btn=1  light_state=1
+t=40000  clk=0  btn=1  light_state=1
+t=45000  clk=1  btn=1  light_state=1
+t=50000  clk=0  btn=1  light_state=1
+t=55000  clk=1  btn=1  light_state=1
+t=60000  clk=0  btn=1  light_state=1
+t=65000  clk=1  btn=1  light_state=1
+t=70000  clk=0  btn=1  light_state=1
+t=75000  clk=1  btn=1  light_state=1
+t=80000  clk=0  btn=1  light_state=1
+t=85000  clk=1  btn=1  light_state=1
+t=90000  clk=0  btn=1  light_state=1
+t=95000  clk=1  btn=1  light_state=1
+t=100000  clk=0  btn=1  light_state=1
+t=105000  clk=1  btn=1  light_state=1
+t=110000  clk=0  btn=1  light_state=1
+t=115000  clk=1  btn=1  light_state=1
+t=120000  clk=0  btn=1  light_state=1
+t=125000  clk=1  btn=1  light_state=1
+t=130000  clk=0  btn=1  light_state=1
+t=135000  clk=1  btn=1  light_state=1
+t=140000  clk=0  btn=1  light_state=1
+t=145000  clk=1  btn=1  light_state=1
+t=150000  clk=0  btn=1  light_state=1
+t=155000  clk=1  btn=1  light_state=1
+t=160000  clk=0  btn=1  light_state=1
+t=165000  clk=1  btn=1  light_state=1
+t=170000  clk=0  btn=1  light_state=1
+t=175000  clk=1  btn=1  light_state=1
+t=180000  clk=0  btn=1  light_state=1
+t=185000  clk=1  btn=1  light_state=1
+t=190000  clk=0  btn=1  light_state=1
+t=195000  clk=1  btn=1  light_state=1
+t=200000  clk=0  btn=1  light_state=1
+t=205000  clk=1  btn=1  light_state=1
+t=210000  clk=0  btn=1  light_state=1
+t=215000  clk=1  btn=1  light_state=1
+t=220000  clk=0  btn=1  light_state=1
+t=225000  clk=1  btn=1  light_state=1
+t=230000  clk=0  btn=1  light_state=1
+t=235000  clk=1  btn=1  light_state=1
+t=240000  clk=0  btn=1  light_state=1
+t=245000  clk=1  btn=1  light_state=1
+t=250000  clk=0  btn=1  light_state=1
+t=255000  clk=1  btn=1  light_state=1
+t=260000  clk=0  btn=1  light_state=1
+t=265000  clk=1  btn=1  light_state=1
+t=270000  clk=0  btn=1  light_state=1
+t=275000  clk=1  btn=1  light_state=1
+t=280000  clk=0  btn=1  light_state=1
+t=285000  clk=1  btn=1  light_state=1
+t=290000  clk=0  btn=1  light_state=1
+t=295000  clk=1  btn=1  light_state=1
+t=300000  clk=0  btn=1  light_state=1
+t=305000  clk=1  btn=1  light_state=1
+t=310000  clk=0  btn=1  light_state=1
+t=315000  clk=1  btn=1  light_state=1
+t=320000  clk=0  btn=1  light_state=1
+t=325000  clk=1  btn=1  light_state=1
+t=330000  clk=0  btn=1  light_state=1
+t=335000  clk=1  btn=1  light_state=1
+t=340000  clk=0  btn=1  light_state=1
+t=345000  clk=1  btn=1  light_state=1
+t=350000  clk=0  btn=1  light_state=1
+t=355000  clk=1  btn=1  light_state=1
+t=360000  clk=0  btn=1  light_state=1
+t=365000  clk=1  btn=1  light_state=1
+t=370000  clk=0  btn=1  light_state=1
+t=375000  clk=1  btn=1  light_state=1
+t=380000  clk=0  btn=1  light_state=1
+t=385000  clk=1  btn=1  light_state=1
+t=390000  clk=0  btn=1  light_state=1
+t=395000  clk=1  btn=1  light_state=1
+t=400000  clk=0  btn=1  light_state=1
+t=405000  clk=1  btn=1  light_state=1
+t=410000  clk=0  btn=1  light_state=1
+t=415000  clk=1  btn=1  light_state=1
+t=420000  clk=0  btn=1  light_state=1
+t=425000  clk=1  btn=1  light_state=1
+t=430000  clk=0  btn=1  light_state=1
+t=435000  clk=1  btn=1  light_state=1
+t=440000  clk=0  btn=1  light_state=1
+t=445000  clk=1  btn=1  light_state=1
+t=450000  clk=0  btn=1  light_state=1
+t=455000  clk=1  btn=1  light_state=1
+t=460000  clk=0  btn=1  light_state=1
+t=465000  clk=1  btn=1  light_state=1
+t=470000  clk=0  btn=1  light_state=1
+t=475000  clk=1  btn=1  light_state=1
+t=480000  clk=0  btn=1  light_state=1
+t=485000  clk=1  btn=1  light_state=1
+t=490000  clk=0  btn=1  light_state=1
+t=495000  clk=1  btn=1  light_state=1
+t=500000  clk=0  btn=1  light_state=1
+t=505000  clk=1  btn=1  light_state=1
+t=510000  clk=0  btn=1  light_state=1
+t=515000  clk=1  btn=1  light_state=1
+t=520000  clk=0  btn=1  light_state=1
+t=525000  clk=1  btn=1  light_state=1
+t=530000  clk=0  btn=1  light_state=1
+t=535000  clk=1  btn=1  light_state=1
+t=540000  clk=0  btn=1  light_state=1
+t=545000  clk=1  btn=1  light_state=1
+t=550000  clk=0  btn=1  light_state=1
+t=555000  clk=1  btn=1  light_state=1
+t=560000  clk=0  btn=1  light_state=1
+t=565000  clk=1  btn=1  light_state=1
+t=570000  clk=0  btn=1  light_state=1
+t=575000  clk=1  btn=1  light_state=1
+t=580000  clk=0  btn=1  light_state=1
+t=585000  clk=1  btn=1  light_state=1
+t=590000  clk=0  btn=1  light_state=1
+t=595000  clk=1  btn=1  light_state=1
+t=600000  clk=0  btn=1  light_state=1
+t=605000  clk=1  btn=1  light_state=1
+t=610000  clk=0  btn=1  light_state=1
+t=615000  clk=1  btn=1  light_state=1
+t=620000  clk=0  btn=1  light_state=1
+t=625000  clk=1  btn=1  light_state=1
+t=630000  clk=0  btn=1  light_state=1
+t=635000  clk=1  btn=1  light_state=1
+t=640000  clk=0  btn=1  light_state=1
+t=645000  clk=1  btn=1  light_state=1
+t=650000  clk=0  btn=1  light_state=1
+t=655000  clk=1  btn=1  light_state=1
+t=660000  clk=0  btn=1  light_state=1
+t=665000  clk=1  btn=1  light_state=1
+t=670000  clk=0  btn=1  light_state=1
+t=675000  clk=1  btn=1  light_state=1
+t=680000  clk=0  btn=1  light_state=1
+t=685000  clk=1  btn=1  light_state=1
+t=690000  clk=0  btn=1  light_state=1
+t=695000  clk=1  btn=1  light_state=1
+t=700000  clk=0  btn=1  light_state=1
+t=705000  clk=1  btn=1  light_state=1
+t=710000  clk=0  btn=1  light_state=1
+t=715000  clk=1  btn=1  light_state=1
+t=720000  clk=0  btn=1  light_state=1
+t=725000  clk=1  btn=1  light_state=1
+t=730000  clk=0  btn=1  light_state=1
+t=735000  clk=1  btn=1  light_state=1
+t=740000  clk=0  btn=1  light_state=1
+t=745000  clk=1  btn=1  light_state=1
+t=750000  clk=0  btn=1  light_state=1
+t=755000  clk=1  btn=1  light_state=1
+t=760000  clk=0  btn=1  light_state=1
+t=765000  clk=1  btn=1  light_state=1
+t=770000  clk=0  btn=1  light_state=1
+t=775000  clk=1  btn=1  light_state=1
+t=780000  clk=0  btn=1  light_state=1
+t=785000  clk=1  btn=1  light_state=1
+t=790000  clk=0  btn=1  light_state=1
+t=795000  clk=1  btn=1  light_state=1
+t=800000  clk=0  btn=1  light_state=1
+t=805000  clk=1  btn=1  light_state=1
+t=810000  clk=0  btn=1  light_state=1
+t=815000  clk=1  btn=1  light_state=1
+t=820000  clk=0  btn=1  light_state=1
+t=825000  clk=1  btn=1  light_state=1
+t=830000  clk=0  btn=1  light_state=1
+t=835000  clk=1  btn=1  light_state=1
+t=840000  clk=0  btn=1  light_state=1
+t=845000  clk=1  btn=1  light_state=1
+t=850000  clk=0  btn=1  light_state=1
+t=855000  clk=1  btn=1  light_state=1
+t=860000  clk=0  btn=1  light_state=1
+t=865000  clk=1  btn=1  light_state=1
+t=870000  clk=0  btn=1  light_state=1
+t=875000  clk=1  btn=1  light_state=1
+t=880000  clk=0  btn=1  light_state=1
+t=885000  clk=1  btn=1  light_state=1
+t=890000  clk=0  btn=1  light_state=1
+t=895000  clk=1  btn=1  light_state=1
+t=900000  clk=0  btn=1  light_state=1
+t=905000  clk=1  btn=1  light_state=1
+t=910000  clk=0  btn=1  light_state=1
+t=915000  clk=1  btn=1  light_state=1
+t=920000  clk=0  btn=1  light_state=1
+t=925000  clk=1  btn=1  light_state=1
+t=930000  clk=0  btn=1  light_state=1
+t=935000  clk=1  btn=1  light_state=1
+t=940000  clk=0  btn=1  light_state=1
+t=945000  clk=1  btn=1  light_state=1
+t=950000  clk=0  btn=1  light_state=1
+t=955000  clk=1  btn=1  light_state=1
+t=960000  clk=0  btn=1  light_state=1
+t=965000  clk=1  btn=1  light_state=1
+t=970000  clk=0  btn=1  light_state=1
+t=975000  clk=1  btn=1  light_state=1
+t=980000  clk=0  btn=1  light_state=1
+t=985000  clk=1  btn=1  light_state=1
+t=990000  clk=0  btn=1  light_state=1
+t=995000  clk=1  btn=1  light_state=1
+t=1000000  clk=0  btn=1  light_state=1
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'light_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 10418.473 ; gain = 0.000 ; free physical = 22021 ; free virtual = 43110
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 473564 KB (Peak: 530836 KB), Simulation CPU Usage: 1480 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'light_controller_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/scratch/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'light_controller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj light_controller_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_controller_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /scratch/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot light_controller_tb_behav xil_defaultlib.light_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light_controller
+Compiling module xil_defaultlib.light_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot light_controller_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ugrad/lsich/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "light_controller_tb_behav -key {Behavioral:sim_1:Functional:light_controller_tb} -tclbatch {light_controller_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source light_controller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+t=0  clk=0  btn=0  light_state=0
+t=5000  clk=1  btn=0  light_state=0
+t=10000  clk=0  btn=0  light_state=0
+t=15000  clk=1  btn=1  light_state=1
+t=20000  clk=0  btn=1  light_state=1
+t=25000  clk=1  btn=1  light_state=1
+t=30000  clk=0  btn=1  light_state=1
+t=35000  clk=1  btn=1  light_state=1
+t=40000  clk=0  btn=1  light_state=1
+t=45000  clk=1  btn=1  light_state=1
+t=50000  clk=0  btn=1  light_state=1
+t=55000  clk=1  btn=1  light_state=1
+t=60000  clk=0  btn=1  light_state=1
+t=65000  clk=1  btn=1  light_state=1
+t=70000  clk=0  btn=1  light_state=1
+t=75000  clk=1  btn=1  light_state=1
+t=80000  clk=0  btn=1  light_state=1
+t=85000  clk=1  btn=1  light_state=1
+t=90000  clk=0  btn=1  light_state=1
+t=95000  clk=1  btn=1  light_state=1
+t=100000  clk=0  btn=1  light_state=1
+t=105000  clk=1  btn=1  light_state=1
+t=110000  clk=0  btn=1  light_state=1
+t=115000  clk=1  btn=1  light_state=1
+t=120000  clk=0  btn=1  light_state=1
+t=125000  clk=1  btn=1  light_state=1
+t=130000  clk=0  btn=1  light_state=1
+t=135000  clk=1  btn=1  light_state=1
+t=140000  clk=0  btn=1  light_state=1
+t=145000  clk=1  btn=1  light_state=1
+t=150000  clk=0  btn=1  light_state=1
+t=155000  clk=1  btn=1  light_state=1
+t=160000  clk=0  btn=1  light_state=1
+t=165000  clk=1  btn=1  light_state=1
+t=170000  clk=0  btn=1  light_state=1
+t=175000  clk=1  btn=1  light_state=1
+t=180000  clk=0  btn=1  light_state=1
+t=185000  clk=1  btn=1  light_state=1
+t=190000  clk=0  btn=1  light_state=1
+t=195000  clk=1  btn=1  light_state=1
+t=200000  clk=0  btn=1  light_state=1
+t=205000  clk=1  btn=1  light_state=1
+t=210000  clk=0  btn=1  light_state=1
+t=215000  clk=1  btn=1  light_state=1
+t=220000  clk=0  btn=1  light_state=1
+t=225000  clk=1  btn=1  light_state=1
+t=230000  clk=0  btn=1  light_state=1
+t=235000  clk=1  btn=1  light_state=1
+t=240000  clk=0  btn=1  light_state=1
+t=245000  clk=1  btn=1  light_state=1
+t=250000  clk=0  btn=1  light_state=1
+t=255000  clk=1  btn=1  light_state=1
+t=260000  clk=0  btn=1  light_state=1
+t=265000  clk=1  btn=1  light_state=1
+t=270000  clk=0  btn=1  light_state=1
+t=275000  clk=1  btn=1  light_state=1
+t=280000  clk=0  btn=1  light_state=1
+t=285000  clk=1  btn=1  light_state=1
+t=290000  clk=0  btn=1  light_state=1
+t=295000  clk=1  btn=1  light_state=1
+t=300000  clk=0  btn=1  light_state=1
+t=305000  clk=1  btn=1  light_state=1
+t=310000  clk=0  btn=1  light_state=1
+t=315000  clk=1  btn=0  light_state=0
+t=320000  clk=0  btn=0  light_state=0
+t=325000  clk=1  btn=0  light_state=0
+t=330000  clk=0  btn=0  light_state=0
+t=335000  clk=1  btn=0  light_state=0
+t=340000  clk=0  btn=0  light_state=0
+t=345000  clk=1  btn=0  light_state=0
+t=350000  clk=0  btn=0  light_state=0
+t=355000  clk=1  btn=0  light_state=0
+t=360000  clk=0  btn=0  light_state=0
+t=365000  clk=1  btn=1  light_state=1
+t=370000  clk=0  btn=1  light_state=1
+t=375000  clk=1  btn=1  light_state=1
+t=380000  clk=0  btn=1  light_state=1
+t=385000  clk=1  btn=1  light_state=1
+t=390000  clk=0  btn=1  light_state=1
+t=395000  clk=1  btn=1  light_state=1
+t=400000  clk=0  btn=1  light_state=1
+t=405000  clk=1  btn=1  light_state=1
+t=410000  clk=0  btn=1  light_state=1
+t=415000  clk=1  btn=1  light_state=1
+t=420000  clk=0  btn=1  light_state=1
+t=425000  clk=1  btn=1  light_state=1
+t=430000  clk=0  btn=1  light_state=1
+t=435000  clk=1  btn=1  light_state=1
+t=440000  clk=0  btn=1  light_state=1
+t=445000  clk=1  btn=0  light_state=0
+t=450000  clk=0  btn=0  light_state=0
+t=455000  clk=1  btn=0  light_state=0
+t=460000  clk=0  btn=0  light_state=0
+$finish called at time : 465 ns : File "/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv" Line 57
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'light_controller_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 10418.473 ; gain = 0.000 ; free physical = 22010 ; free virtual = 43099
+close [ open /home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv w ]
+add_files /home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sim_1/new/light_controller_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/light_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/ugrad/lsich/lab2/lab2.srcs/sources_1/new/register_file.sv:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 473564 KB (Peak: 530836 KB), Simulation CPU Usage: 1490 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  2 15:18:16 2025...

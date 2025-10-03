@@ -23,7 +23,7 @@ module light_controller_tb;
     reg clk, rst, button;           
     wire [2:0] light_state;         
 
-    parameter N = 300_000_000;
+    parameter N = 2;
 
     light_controller #(N) uut (
         .clk(clk),
